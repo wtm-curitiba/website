@@ -1393,4 +1393,16 @@ h1, h2, h3, h4, h5, h6 {
 	100% { opacity:1; }
 }
 
+.img-work
+{
+	height: 250px;
+}
+
+@media (max-device-width: 480px) and (orientation: landscape) {
+  .navbar-fixed-top .navbar-collapse,
+  .navbar-fixed-bottom .navbar-collapse {
+   margin-top: 25px;	
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
