@@ -1352,6 +1352,8 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 768px) {
   .row-bottom-padded-sm {
     padding-bottom: 2em;
+	margin-left: 0;
+    margin-right: 0;
   }
 }
 
@@ -1391,11 +1393,6 @@ h1, h2, h3, h4, h5, h6 {
 	0% { opacity:1; }
 	50% { opacity:0; }
 	100% { opacity:1; }
-}
-
-.img-work
-{
-	height: 250px;
 }
 
 @media (max-device-width: 480px) and (orientation: landscape) {

@@ -1,11 +1,14 @@
 {
   "dependencies": {
     "Google.Cloud.Diagnostics.AspNetCore": "1.0.0",
-    "Microsoft.NETCore.App": "1.0.3",
+    "Microsoft.NETCore.App": {
+      "type": "platform",
+      "version": "1.0.1"
+    },
     "Microsoft.AspNetCore.Diagnostics": "1.0.2",
     "Microsoft.AspNetCore.Mvc": "1.1.2",
     "Microsoft.AspNetCore.Razor.Tools": {
-      "version": "1.0.0-preview4-final",
+      "version": "1.0.0-preview1-final",
       "type": "build"
     },
     "Microsoft.AspNetCore.Server.IISIntegration": "1.1.1",
@@ -15,7 +18,9 @@
     "Microsoft.Extensions.Configuration.Json": "1.0.2",
     "Microsoft.Extensions.Logging.Console": "1.0.2",
     "Microsoft.Extensions.Options.ConfigurationExtensions": "1.0.2",
-    "Microsoft.VisualStudio.Web.BrowserLink": "1.0.1"
+    "Microsoft.VisualStudio.Web.BrowserLink": "1.0.1",
+    "System.Net.Mail": "1.0.0-rtm-00002",
+    "MailKit": "2.0.4"
   },
 
   "tools": {

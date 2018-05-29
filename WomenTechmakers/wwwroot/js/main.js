@@ -122,7 +122,7 @@
 
     var typed = function () {
         new Typed('#text-header', {
-            strings: ["Mulheres ^700 na Tecnologia 	", "Empoderamento ^700 Feminino ", "Equidade ^700 de Gêneros "],
+            strings: ["Mulheres ^700 na Tecnologia 	", "Empoderamento ^700 Feminino ", "Diversidade ^700 na Tecnologia  "],
             typeSpeed: 70,
             backSpeed: 50,
             backDelay: 500,
